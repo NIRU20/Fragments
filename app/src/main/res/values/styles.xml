@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.base" parent="AppTheme">
+
+        <item name="colorPrimary">@color/yello</item>
+        <item name="colorPrimaryDark">@color/deeppurple</item>
+        <item name="colorAccent">@color/testcolorblue</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/yello</item>
+        <item name="colorPrimaryDark">@color/deeppurple</item>
+        <item name="colorAccent">@color/pink</item>
+    </style>
+
+
+
+</resources>

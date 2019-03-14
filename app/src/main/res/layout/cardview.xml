@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="12dp"
+    android:layout_weight="2"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/lnkscardview"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:weightSum="1"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lnkimgview"
+        android:background="#817f7f"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/lnktextview"
+           android:hint="Links text"
+           android:textSize="17dp"
+           android:padding="3sp"
+           />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
